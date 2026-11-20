@@ -1,0 +1,5 @@
+min_support,min_support_pct,candidate_items_ge_minsup,apriori_itemsets,fpgrowth_itemsets,itemsets_identical,apriori_rules,fpgrowth_rules,apriori_time_s,fpgrowth_time_s,speedup_fpgrowth_vs_apriori,apriori_peak_mb,fpgrowth_peak_mb
+0.001,0.1%,534,1197,1197,True,730,730,21.257,77.9314,0.27,1893.34,951.97
+0.005,0.5%,63,75,75,True,6,6,1.0242,53.5919,0.02,240.32,125.58
+0.01,1.0%,24,25,25,True,1,1,0.3532,57.7603,0.01,100.0,55.44
+0.02,2.0%,4,4,4,True,0,0,0.0513,50.6141,0.0,30.8,18.32

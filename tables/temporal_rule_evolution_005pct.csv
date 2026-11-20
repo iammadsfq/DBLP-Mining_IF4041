@@ -1,0 +1,217 @@
+rule,periods_present,periods_list,pattern_status,lift_2015-2017,sup_pct_2015-2017,conf_pct_2015-2017,lift_2018-2020,sup_pct_2018-2020,conf_pct_2018-2020,lift_2021-2023,sup_pct_2021-2023,conf_pct_2021-2023,lift_2024-2025,sup_pct_2024-2025,conf_pct_2024-2025,mean_lift
+"ACL (1), EMNLP (Findings) -> EMNLP",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,84.69,0.0624,52.2,32.44,0.1353,50.87,58.57
+"ICCV, ICLR -> CVPR",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,32.1,0.0673,59.66,20.42,0.145,54.54,26.26
+"ICCV, NeurIPS -> CVPR",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,30.58,0.1311,56.83,19.86,0.2087,53.04,25.22
+"ACM Multimedia, ICCV -> CVPR",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,28.5,0.0639,52.98,19.81,0.0914,52.9,24.16
+"AAAI, ICCV -> CVPR",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,28.92,0.0862,53.75,19.26,0.1362,51.45,24.09
+"ICLR, ICML -> NeurIPS",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,24.37,0.1606,63.1,12.12,0.4323,59.77,18.25
+"CVPR, ICML -> NeurIPS",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,23.71,0.0769,61.4,12.67,0.2207,62.5,18.19
+"AAAI, ICLR -> NeurIPS",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,23.29,0.0788,60.29,12.26,0.2357,60.47,17.78
+"AISTATS, ICML -> NeurIPS",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,23.23,0.0594,60.15,11.77,0.0699,58.05,17.5
+"AAAI, ICML -> NeurIPS",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,22.72,0.0889,58.82,11.94,0.2396,58.88,17.33
+"ICCV, ICLR -> NeurIPS",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,22.07,0.0645,57.14,11.74,0.1539,57.89,16.9
+"CVPR, ICLR -> NeurIPS",2,"2021-2023, 2024-2025",Emerging (2021-2025),,,,,,,21.51,0.0997,55.7,11.97,0.2716,59.04,16.74
+"ACL (Findings), EMNLP (Findings) -> EMNLP",1,2021-2023,Emerging (2021-2025),,,,,,,83.46,0.0521,51.44,,,,83.46
+"ACL (1), ACL (Findings) -> EMNLP",1,2021-2023,Emerging (2021-2025),,,,,,,83.35,0.0548,51.37,,,,83.35
+ECOC -> OFC,1,2015-2017,Declining/Hilang (2015-2020),59.83,0.1865,51.59,,,,,,,,,,59.83
+"ACL (Findings), EMNLP (Findings), ICLR -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,49.68,0.0564,66.84,49.68
+"ACL (1), EMNLP (Findings), ICLR -> ACL (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,49.13,0.0564,62.11,49.13
+"ACL (1), EMNLP, EMNLP (Findings) -> ACL (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,48.78,0.0834,61.67,48.78
+"ACL (Findings), EMNLP, ICLR -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,48.57,0.067,65.35,48.57
+"AAAI, ACL (1), EMNLP -> ACL (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,48.13,0.0538,60.84,48.13
+"ACL (1), EMNLP (Findings), NeurIPS -> ACL (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,47.89,0.0706,60.54,47.89
+"ACL (Findings), EMNLP, EMNLP (Findings) -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,47.54,0.0834,63.96,47.54
+"AAAI, ACL (Findings), EMNLP -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,47.21,0.0538,63.52,47.21
+"EMNLP, EMNLP (Findings), ICLR -> ACL (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,46.87,0.0556,59.25,46.87
+"ACL (Findings), EMNLP, NeurIPS -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,46.07,0.0816,61.99,46.07
+"ACL (1), EMNLP, ICLR -> ACL (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,46.02,0.067,58.18,46.02
+"ACL (Findings), EMNLP (Findings), NeurIPS -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,45.88,0.0706,61.74,45.88
+"EMNLP, EMNLP (Findings), ICLR -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,45.56,0.0575,61.3,45.56
+"ACL (1), EMNLP, NeurIPS -> ACL (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,43.65,0.0816,55.18,43.65
+"EMNLP, EMNLP (Findings), NeurIPS -> ACL (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,43.32,0.0667,54.76,43.32
+"EMNLP, EMNLP (Findings), NeurIPS -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,43.18,0.0708,58.09,43.18
+"ACL (Findings), EMNLP, ICLR -> EMNLP (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,42.81,0.0556,54.24,42.81
+"ACL (1), ACL (Findings), EMNLP -> EMNLP (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,42.66,0.0834,54.05,42.66
+"ACL (Findings), EMNLP (Findings), ICLR -> EMNLP",1,2024-2025,Emerging (2021-2025),,,,,,,,,,42.04,0.0556,65.91,42.04
+"ACL (1), ACL (Findings), EMNLP (Findings) -> EMNLP",1,2024-2025,Emerging (2021-2025),,,,,,,,,,41.92,0.0834,65.72,41.92
+"ACL (1), ACL (Findings), ICLR -> EMNLP (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,41.28,0.0564,52.3,41.28
+"AAAI, ACL (1), NeurIPS -> ACL (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,40.88,0.059,51.68,40.88
+"ACL (1), EMNLP (Findings), ICLR -> EMNLP",1,2024-2025,Emerging (2021-2025),,,,,,,,,,40.41,0.0575,63.35,40.41
+"AAAI, ACL (Findings), NeurIPS -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,40.2,0.059,54.08,40.2
+"ACL (1), ACL (Findings), NeurIPS -> EMNLP (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,40.14,0.0706,50.85,40.14
+"ACL (Findings), EMNLP, NeurIPS -> EMNLP (Findings)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,40.0,0.0667,50.68,40.0
+"ACL (1), ACL (Findings), ICLR -> EMNLP",1,2024-2025,Emerging (2021-2025),,,,,,,,,,39.63,0.067,62.13,39.63
+"ACL (Findings), ICLR, ICML -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,39.14,0.0503,52.66,39.14
+"ACL (1), EMNLP (Findings), NeurIPS -> EMNLP",1,2024-2025,Emerging (2021-2025),,,,,,,,,,38.74,0.0708,60.74,38.74
+"EMNLP, NAACL (Long Papers) -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,38.61,0.0525,51.95,38.61
+"ACL (Findings), ICLR, NeurIPS -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,37.97,0.0742,51.09,37.97
+"AAAI, EMNLP, NeurIPS -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,37.88,0.0566,50.96,37.88
+"AAAI, ACL (1), ACL (Findings) -> EMNLP",1,2024-2025,Emerging (2021-2025),,,,,,,,,,37.56,0.0538,58.89,37.56
+"ACL (1), ACL (Findings), NeurIPS -> EMNLP",1,2024-2025,Emerging (2021-2025),,,,,,,,,,37.51,0.0816,58.81,37.51
+"EMNLP (Findings), ICLR, NeurIPS -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,37.43,0.0637,50.36,37.43
+"ACL (Findings), EMNLP (Findings), NeurIPS -> EMNLP",1,2024-2025,Emerging (2021-2025),,,,,,,,,,37.24,0.0667,58.38,37.24
+"ACL (Findings), ICML, NeurIPS -> ACL (1)",1,2024-2025,Emerging (2021-2025),,,,,,,,,,37.16,0.0572,50.0,37.16
+"ACL (1), NAACL (Long Papers) -> EMNLP",1,2024-2025,Emerging (2021-2025),,,,,,,,,,33.17,0.0525,52.01,33.17
+"EMNLP (Findings), ICLR, NeurIPS -> EMNLP",1,2024-2025,Emerging (2021-2025),,,,,,,,,,32.57,0.0646,51.07,32.57
+"ACL (1), ICLR, ICML -> EMNLP",1,2024-2025,Emerging (2021-2025),,,,,,,,,,32.19,0.0548,50.47,32.19
+"ACM Multimedia, NeurIPS -> CVPR",1,2021-2023,Emerging (2021-2025),,,,,,,29.61,0.0553,55.03,,,,29.61
+"ACM Multimedia, ICCV, NeurIPS -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,24.71,0.0556,66.0,24.71
+"ICCV, ICLR, NeurIPS -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,24.41,0.1003,65.2,24.41
+"ACM Multimedia, IJCAI, NeurIPS -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,24.13,0.0513,69.89,24.13
+"AAAI, ICCV, ICLR -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,24.12,0.0561,64.42,24.12
+"ICCV, ICLR, ICML -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,24.0,0.0572,64.1,24.0
+"AAAI, ACM Multimedia, ICCV -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,23.92,0.0529,63.9,23.92
+"ACM Multimedia, CVPR, ICML -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,23.69,0.0572,68.61,23.69
+"AAAI, ICCV, NeurIPS -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,23.6,0.0848,63.03,23.6
+"ICCV, ICML, NeurIPS -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,23.6,0.0738,63.04,23.6
+"ACL (1), ACL (Findings), ICML -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,23.57,0.0503,66.27,23.57
+"ACL (1), ICML, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,23.57,0.0835,66.28,23.57
+"ACL (Findings), ICML, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,23.57,0.0758,66.27,23.57
+"CVPR, IJCAI, NeurIPS -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,23.37,0.0555,67.68,23.37
+"ACL (1), EMNLP, ICML -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,23.29,0.0548,65.5,23.29
+"EMNLP, ICML, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,23.28,0.0868,65.48,23.28
+"AAAI, ACM Multimedia, ICLR -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,22.59,0.053,60.33,22.59
+"AAAI, ACM Multimedia, ICML -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,22.36,0.0572,59.72,22.36
+"ICLR, IJCAI, NeurIPS -> ICML",1,2024-2025,Emerging (2021-2025),,,,,,,,,,22.18,0.0523,59.11,22.18
+"ICML, IJCAI, NeurIPS -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,22.11,0.0636,64.02,22.11
+"EMNLP (Findings), ICML, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,21.99,0.0663,61.83,21.99
+"ACM Multimedia, ICLR, NeurIPS -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,21.97,0.0645,58.67,21.97
+"ACM Multimedia, ICML, NeurIPS -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,21.96,0.0683,63.59,21.96
+"ACL (1), CVPR, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,21.95,0.0513,61.74,21.95
+"AISTATS, ICLR -> ICML",1,2024-2025,Emerging (2021-2025),,,,,,,,,,21.95,0.0521,58.48,21.95
+"AAAI, CVPR, ICML, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,21.69,0.0591,61.0,21.69
+"ICLR, IJCAI, NeurIPS -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,21.69,0.0556,62.8,21.69
+"ACM Multimedia, CVPR, ICLR -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,21.52,0.053,62.33,21.52
+"AAAI, CVPR, ICLR, NeurIPS -> ICML",1,2024-2025,Emerging (2021-2025),,,,,,,,,,21.42,0.0591,57.08,21.42
+"ACM Multimedia, ICML, NeurIPS -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,21.37,0.0613,57.08,21.37
+"AAAI, ACM Multimedia, NeurIPS -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,21.28,0.0951,56.84,21.28
+"ACM Multimedia, CVPR, NeurIPS -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,20.98,0.0951,60.76,20.98
+"ICCV, ICML, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,20.95,0.069,58.9,20.95
+"ACM Multimedia, ICCV, NeurIPS -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,20.8,0.0507,60.24,20.8
+"CVPR, ICML, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,20.67,0.1283,58.12,20.67
+"ACM Multimedia, ICLR, NeurIPS -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,20.43,0.065,59.18,20.43
+"ICCV, ICML -> CVPR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,20.35,0.1013,54.35,20.35
+"CVPR, ICCV, ICML -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,20.05,0.0572,56.4,20.05
+"ACM Multimedia, IJCAI -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,20.01,0.09,57.95,20.01
+"EMNLP, ICLR, NeurIPS -> ICML",1,2024-2025,Emerging (2021-2025),,,,,,,,,,20.01,0.0868,53.32,20.01
+"ACM Multimedia, CVPR, ICCV -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.97,0.0529,57.83,19.97
+"ACL (1), ICML -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.89,0.1086,55.92,19.89
+"ACM Multimedia, ICLR, NeurIPS -> ICML",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.82,0.0581,52.82,19.82
+"AAAI, ICLR, NeurIPS -> ICML",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.69,0.1237,52.46,19.69
+"EMNLP (Findings), ICLR, NeurIPS -> ICML",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.67,0.0663,52.41,19.67
+"CVPR, IJCAI -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.61,0.0831,56.78,19.61
+"ACL (Findings), ICLR, NeurIPS -> ICML",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.58,0.0758,52.17,19.58
+"CVPR, ICASSP, NeurIPS -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.55,0.056,56.61,19.55
+"ACL (Findings), EMNLP, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.45,0.072,54.71,19.45
+"ACL (1), EMNLP (Findings), NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.43,0.0637,54.64,19.43
+"ACL (1), ICLR, NeurIPS -> ICML",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.41,0.0835,51.71,19.41
+"AAAI, ACL (1), NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.4,0.0622,54.55,19.4
+"NAACL (Long Papers), NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.28,0.0508,54.21,19.28
+"AAAI, CVPR, ICML -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.26,0.0711,54.16,19.26
+"ACM Multimedia, ICML, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.22,0.0581,54.04,19.22
+"ICLR, IJCAI -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.22,0.0737,55.66,19.22
+"ICML, IJCAI -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.22,0.0886,55.67,19.22
+"ACL (Findings), ICML -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.18,0.0955,53.95,19.18
+"AAAI, ACL (Findings), NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.05,0.0584,53.57,19.05
+"ACL (1), ACL (Findings), NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,19.01,0.0742,53.45,19.01
+"EMNLP, ICML -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,18.91,0.1141,53.18,18.91
+"EMNLP, EMNLP (Findings), NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,18.85,0.0646,53.01,18.85
+"ACM Multimedia, ICML -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,18.84,0.0957,54.56,18.84
+"ACL (Findings), EMNLP (Findings), NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,18.8,0.0604,52.86,18.8
+"ACL (1), EMNLP, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,18.73,0.0779,52.67,18.73
+"ICML, IJCAI, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,18.73,0.0523,52.67,18.73
+"AAAI, ICML, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,18.36,0.1237,51.62,18.36
+"AAAI, EMNLP, NeurIPS -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,18.3,0.0572,51.47,18.3
+"EMNLP (Findings), ICML -> ICLR",1,2024-2025,Emerging (2021-2025),,,,,,,,,,17.85,0.0835,50.2,17.85
+"IJCAI, NeurIPS -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,17.83,0.1397,51.65,17.83
+"ACL (Findings), ACM Multimedia -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,17.77,0.0537,51.46,17.77
+"ACM Multimedia, ICLR -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,17.5,0.0878,50.68,17.5
+"ICME, NeurIPS -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,17.45,0.0763,50.52,17.45
+"ACL (1), ACM Multimedia -> AAAI",1,2024-2025,Emerging (2021-2025),,,,,,,,,,17.26,0.0569,50.0,17.26
+"AAAI, CVPR, ICLR, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,16.84,0.0591,83.04,16.84
+"ICLR, ICML, IJCAI -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,16.37,0.0523,80.7,16.37
+"ACL (Findings), ICLR, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,16.09,0.0758,79.34,16.09
+"EMNLP (Findings), ICLR, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,16.09,0.0663,79.35,16.09
+"ACL (1), CVPR, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.91,0.0513,78.45,15.91
+"ACM Multimedia, ICLR, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.8,0.0581,77.91,15.8
+"ICCV, ICLR, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.69,0.069,77.37,15.69
+"ACL (1), ICLR, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.61,0.0835,76.95,15.61
+"CVPR, ICLR, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.53,0.1283,76.58,15.53
+"AAAI, ACL (Findings), ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.47,0.0584,76.29,15.47
+"EMNLP, ICLR, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.43,0.0868,76.09,15.43
+"AAAI, ACL (1), ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.39,0.0521,75.86,15.39
+"ACM Multimedia, CVPR, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.39,0.0645,75.86,15.39
+"AAAI, ICLR, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.38,0.1237,75.81,15.38
+"AAAI, ICLR, IJCAI -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.29,0.0556,75.38,15.29
+"ACL (1), ACL (Findings), ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.28,0.0572,75.33,15.28
+"ACL (Findings), EMNLP, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.2,0.054,74.96,15.2
+"AAAI, EMNLP, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.13,0.0503,74.58,15.13
+"AAAI, ICCV, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.05,0.0555,74.21,15.05
+"AAAI, ACM Multimedia, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,15.02,0.065,74.07,15.02
+"AAAI, ACL (1), ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.99,0.0622,73.9,14.99
+"AAAI, EMNLP, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.99,0.0572,73.91,14.99
+"AAAI, CVPR, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.95,0.0968,73.73,14.95
+"ACM Multimedia, CVPR, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.93,0.0613,73.61,14.93
+"CVPR, ICCV, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.78,0.0738,72.86,14.78
+"AAAI, CVPR, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.74,0.1035,72.68,14.74
+"EMNLP, EMNLP (Findings), ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.72,0.0504,72.56,14.72
+"ACL (1), EMNLP, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.7,0.0607,72.51,14.7
+"AAAI, ICCV, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.56,0.0626,71.8,14.56
+"AAAI, ICML, IJCAI -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.55,0.0636,71.76,14.55
+"ACL (Findings), EMNLP (Findings), ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.53,0.0604,71.66,14.53
+"AAAI, ACM Multimedia, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.48,0.0683,71.38,14.48
+"ACL (Findings), EMNLP, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.26,0.072,70.3,14.26
+"ACL (1), EMNLP (Findings), ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.23,0.0637,70.19,14.23
+"CVPR, ICCV, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,14.04,0.1003,69.21,14.04
+"EMNLP, EMNLP (Findings), ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,13.97,0.0646,68.87,13.97
+"ACL (1), ACL (Findings), ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,13.96,0.0742,68.83,13.96
+"ACL (1), EMNLP, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,13.73,0.0779,67.68,13.73
+"ICLR, IJCAI -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,13.55,0.0885,66.81,13.55
+"AAAI, CVPR, IJCAI -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,13.54,0.0555,66.76,13.54
+"ACL (1), ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,13.17,0.126,64.92,13.17
+"ACL (Findings), ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,13.1,0.1143,64.59,13.1
+"AAAI, ACL (1), ACL (Findings) -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,13.09,0.059,64.57,13.09
+"EMNLP (Findings), ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,13.07,0.1072,64.43,13.07
+"AAAI, ACL (1), EMNLP -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.99,0.0566,64.03,12.99
+"AAAI, ACL (Findings), EMNLP -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.96,0.0541,63.91,12.96
+"EMNLP, ICCV -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.96,0.0583,63.91,12.96
+"ACM Multimedia, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.87,0.1099,63.44,12.87
+"ACL (1), CVPR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.86,0.0831,63.43,12.86
+"ICCV, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.74,0.1171,62.82,12.74
+"ACL (1), ICCV -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.72,0.0547,62.74,12.72
+"ACL (Findings), CVPR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.72,0.0749,62.7,12.72
+"ICML, IJCAI -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.65,0.0993,62.39,12.65
+"ACL (Findings), ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.63,0.1452,62.25,12.63
+"AAAI, CVPR, ICCV -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.62,0.0848,62.25,12.62
+"EMNLP (Findings), ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.61,0.1265,62.2,12.61
+"CVPR, EMNLP (Findings) -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.59,0.0705,62.07,12.59
+"AISTATS, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.58,0.0552,62.03,12.58
+"EMNLP, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.53,0.1326,61.8,12.53
+"AAAI, ACM Multimedia, ICCV -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.43,0.0507,61.31,12.43
+"ACM Multimedia, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.42,0.1074,61.25,12.42
+"ACM Multimedia, CVPR, ICCV -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.33,0.0556,60.79,12.33
+"AAAI, ACM Multimedia, CVPR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.29,0.0951,60.59,12.29
+"AAAI, CVPR, ICASSP -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.23,0.056,60.32,12.23
+"CVPR, EMNLP -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,12.14,0.0822,59.85,12.14
+"ACL (1), ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,11.94,0.1615,58.85,11.94
+"EMNLP, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,11.94,0.1628,58.87,11.94
+"ACL (Findings), ACM Multimedia -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,11.64,0.0599,57.41,11.64
+"ICLR, NAACL (Long Papers) -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,11.59,0.0508,57.16,11.59
+"AAAI, ACM Multimedia, IJCAI -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,11.56,0.0513,57.02,11.56
+"CVPR, IJCAI -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,11.36,0.082,56.01,11.36
+"ICLR, IROS -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,11.35,0.0555,55.97,11.35
+"ICASSP, ICLR -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,11.32,0.0971,55.84,11.32
+"ACL (1), ACL (Findings), EMNLP (Findings) -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,11.28,0.0706,55.6,11.28
+"ACM Multimedia, EMNLP (Findings) -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,11.26,0.0501,55.5,11.26
+"ICLR, ICRA -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.94,0.0607,53.96,10.94
+"ACM Multimedia, EMNLP -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.91,0.0592,53.79,10.91
+"ACL (1), ACL (Findings), EMNLP -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.73,0.0816,52.89,10.73
+"ACL (1), ACM Multimedia -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.66,0.0599,52.57,10.66
+"ACL (1), EMNLP, EMNLP (Findings) -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.61,0.0708,52.33,10.61
+"ICASSP, ICML -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.51,0.0895,51.83,10.51
+"AAAI, ACL (Findings) -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.5,0.109,51.79,10.5
+"AAAI, ACL (1) -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.48,0.1141,51.66,10.48
+"AAAI, WWW -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.42,0.053,51.37,10.42
+"ACL (Findings), EMNLP, EMNLP (Findings) -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.38,0.0667,51.17,10.38
+"AAAI, EMNLP -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.37,0.111,51.12,10.37
+"AAAI, ICCV -> NeurIPS",1,2024-2025,Emerging (2021-2025),,,,,,,,,,10.3,0.1345,50.81,10.3

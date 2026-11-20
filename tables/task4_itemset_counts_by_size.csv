@@ -1,0 +1,5 @@
+min_support,min_support_pct,n_1_itemsets,n_2_itemsets,n_3_itemsets,n_4plus_itemsets,total_itemsets,total_rules_conf50
+0.001,0.1%,534,333,237,93,1197,730
+0.005,0.5%,63,11,1,0,75,6
+0.01,1.0%,24,1,0,0,25,1
+0.02,2.0%,4,0,0,0,4,0

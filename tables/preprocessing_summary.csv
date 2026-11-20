@@ -1,9 +1,9 @@
 Tahap,Jumlah
-Raw records (inproceedings 2015-2025),2004117
+Raw records (inproceedings 2015-2025),2004202
 Dropped: invalid year,0
 Dropped: missing key/title,0
 Dropped: missing/empty venue,-190
 Dropped: empty authors,-2255
 Dropped: duplicate key,0
 "Dropped: duplicate (title_norm, year, venue)",-1000
-Cleaned records,2000672
+Cleaned records,2000757

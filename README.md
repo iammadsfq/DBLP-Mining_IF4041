@@ -9,15 +9,27 @@ Analisis popularitas konferensi serta Frequent Pattern Mining & Association Rule
 ├── data/
 │   ├── raw/                  # File mentah DBLP (dblp.xml.gz, dblp.dtd, metadata.json)
 │   └── processed/            # Dataset hasil parsing & preprocessing (.parquet)
-├── notebooks/                # Jupyter notebooks untuk EDA, mining, dan visualisasi
+├── notebooks/                # Jupyter notebooks untuk EDA, transaksi, mining, dan temporal
+│   ├── 01_eda_popularity.ipynb
+│   ├── 02_transactional_db.ipynb
+│   ├── 03_fpm_arm_comparison.ipynb
+│   └── 04_temporal_analysis.ipynb
 ├── outputs/
-│   └── figures/              # Grafik/visualisasi hasil eksperimen
+│   └── figures/              # Grafik/visualisasi hasil eksperimen (.png & .pdf)
+├── reports/
+│   ├── laporan_project.typ   # Sumber laporan Typst -> laporan_project.pdf
+│   └── presentasi.typ        # Sumber slide presentasi Touying/Typst -> presentasi.pdf
 ├── src/
-│   ├── download.py           # Script unduh dataset DBLP + pencatatan checksum SHA-256
-│   ├── parser.py             # Parser XML streaming (lxml iterparse) ke format Parquet
+│   ├── download.py           # Script unduh dataset DBLP (parallel range) + SHA-256
+│   ├── parser.py             # Parser XML streaming (lxml iterparse) + statistik tipe publikasi
 │   ├── preprocessing.py      # Preprocessing & normalisasi data
-│   └── transactions.py       # Konstruksi transactional database
-├── tables/                   # Tabel ringkasan hasil eksperimen
+│   ├── transactions.py       # Konstruksi Author-Based & Author-Year-Based transactional DB
+│   ├── mining.py             # Task 4-6: Apriori, FP-Growth, Association Rules & benchmark
+│   ├── temporal.py           # Bagian E: Temporal Association Analysis (4 periode)
+│   └── plotting.py           # Helper visualisasi standar publikasi
+├── tables/                   # Tabel ringkasan hasil eksperimen (.csv)
+├── tests/
+│   └── test_pipeline.py      # Unit test kesetaraan & ketepatan matematis
 └── requirements.txt          # Daftar dependensi Python
 ```
 
@@ -88,6 +100,38 @@ Tahapan yang dijalankan `src/preprocessing.py`:
 3. Normalisasi nama author (Unicode NFC + whitespace collapse, **mempertahankan** suffix disambiguasi DBLP seperti `0001`).
 4. Normalisasi nama conference/venue (penyeragaman `(Workshops)` -> `Workshops`, spasi `@`, alias `NIPS` -> `NeurIPS`, dan canonical casing berdasarkan bentuk penulisan paling sering).
 5. Deduplikasi berdasarkan `key` dan `(normalized_title, year, venue)`.
+
+### 4. Konstruksi Transactional Database (Task 3)
+
+```bash
+python -m src.transactions
+```
+
+Menghasilkan `data/processed/tx_author_based.parquet`, `data/processed/tx_author_year_based.parquet`, serta tabel ringkasan dan sampel di `tables/task3_*.csv`.
+
+### 5. Frequent Pattern Mining, Association Rules & Perbandingan Algoritma (Task 4, 5, 6)
+
+```bash
+python -m src.mining
+```
+
+Menjalankan **Apriori** dan **FP-Growth** pada `min_support` = `0.1%`, `0.5%`, `1%`, `2%` dengan `min_confidence` = `50%`, memverifikasi kesetaraan eksak hasil kedua algoritma, mengukur runtime & peak memory, dan menyimpan hasil ke `tables/task4_*.csv`, `tables/task5_*.csv`, dan `tables/task6_algorithm_comparison.csv`.
+
+### 6. Temporal Association Analysis (Bagian E)
+
+```bash
+python -m src.temporal
+```
+
+Menjalankan FPM & Association Rule Mining per periode (`2015–2017`, `2018–2020`, `2021–2023`, `2024–2025`) pada *Author-Year-Based Transactional Database* dan menyimpan tabel evolusi rules ke `tables/temporal_*.csv`.
+
+### 7. Eksekusi Notebook & Kompilasi Laporan/Presentasi
+
+```bash
+jupyter nbconvert --to notebook --execute --inplace notebooks/01_eda_popularity.ipynb notebooks/02_transactional_db.ipynb notebooks/03_fpm_arm_comparison.ipynb notebooks/04_temporal_analysis.ipynb
+typst compile --root . reports/laporan_project.typ reports/laporan_project.pdf
+typst compile --root . reports/presentasi.typ reports/presentasi.pdf
+```
 
 ## Informasi & Provenance Dataset
 

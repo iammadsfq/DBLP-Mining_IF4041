@@ -1,0 +1,2 @@
+min_support,antecedents,consequents,rule,antecedent_len,consequent_len,antecedent_support,consequent_support,support,support_pct,tx_count,confidence,confidence_pct,lift
+0.01,ICML,NeurIPS,ICML -> NeurIPS,1,1,0.017228,0.030767,0.010008,1.0008,18239,0.580915,58.09,18.881

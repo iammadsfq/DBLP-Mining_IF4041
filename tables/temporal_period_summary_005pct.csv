@@ -1,0 +1,5 @@
+period,year_start,year_end,min_support,min_support_pct,num_transactions,multi_item_tx_pct,n_1_itemsets,n_2_itemsets,n_3plus_itemsets,total_itemsets,total_rules_conf50
+2015-2017,2015,2017,0.0005,0.05%,922999,29.99,764,35,0,799,1
+2018-2020,2018,2020,0.0005,0.05%,1081611,28.98,715,48,0,763,0
+2021-2023,2021,2023,0.0005,0.05%,1196891,28.79,661,109,22,792,15
+2024-2025,2024,2025,0.0005,0.05%,887056,31.58,576,259,230,1065,212
