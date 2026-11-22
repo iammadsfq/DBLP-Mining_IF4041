@@ -17,16 +17,21 @@ Analisis popularitas konferensi serta Frequent Pattern Mining & Association Rule
 ├── outputs/
 │   └── figures/              # Grafik/visualisasi hasil eksperimen (.png & .pdf)
 ├── reports/
-│   ├── laporan_project.typ   # Sumber laporan Typst -> laporan_project.pdf
-│   └── presentasi.typ        # Sumber slide presentasi Touying/Typst -> presentasi.pdf
+│   ├── PROJECT DATA MINING (1).pdf  # Spesifikasi resmi project
+│   ├── jilid/                       # Template referensi laporan Typst (@preview/jilid)
+│   ├── diatypst/                    # Template referensi slide Typst (@preview/diatypst)
+│   ├── refs.bib                     # Referensi BibTeX untuk laporan
+│   ├── laporan_project.typ          # Sumber laporan (template jilid) -> laporan_project.pdf
+│   └── presentasi.typ               # Sumber slide (template diatypst) -> presentasi.pdf
 ├── src/
-│   ├── download.py           # Script unduh dataset DBLP (parallel range) + SHA-256
-│   ├── parser.py             # Parser XML streaming (lxml iterparse) + statistik tipe publikasi
-│   ├── preprocessing.py      # Preprocessing & normalisasi data
-│   ├── transactions.py       # Konstruksi Author-Based & Author-Year-Based transactional DB
-│   ├── mining.py             # Task 4-6: Apriori, FP-Growth, Association Rules & benchmark
-│   ├── temporal.py           # Bagian E: Temporal Association Analysis (4 periode)
-│   └── plotting.py           # Helper visualisasi standar publikasi
+│   ├── download.py                  # Script unduh dataset DBLP (parallel range) + SHA-256
+│   ├── parser.py                    # Parser XML streaming (lxml iterparse) + statistik tipe publikasi
+│   ├── preprocessing.py             # Preprocessing & normalisasi data
+│   ├── transactions.py              # Konstruksi Author-Based & Author-Year-Based transactional DB
+│   ├── mining.py                    # Task 4-6: Apriori, FP-Growth, Association Rules & benchmark
+│   ├── temporal.py                  # Bagian E: Temporal Association Analysis (4 periode)
+│   ├── plotting.py                  # Helper visualisasi standar publikasi
+│   └── generate_slide_figures.py    # Generator grafik single-panel untuk laporan & slide
 ├── tables/                   # Tabel ringkasan hasil eksperimen (.csv)
 ├── tests/
 │   └── test_pipeline.py      # Unit test kesetaraan & ketepatan matematis
@@ -136,17 +141,18 @@ typst compile --root . reports/presentasi.typ reports/presentasi.pdf
 ## Informasi & Provenance Dataset
 
 - **Sumber**: DBLP XML Dump (`https://dblp.org/xml/` / `https://dblp.uni-trier.de/xml/`)
-- **Tanggal Pengambilan**: 18 November 2026 UTC (19 November 2026 WIB)
+- **Tanggal Pengambilan**: 19 November 2026 (`2026-11-19T03:06:47Z` UTC / `10:06:47` WIB)
 - **File Mentah** (tercatat di `data/raw/metadata.json`):
   - `dblp.dtd`: `13,134` bytes (`sha256: 03ec35cb34a4227572a0e89da407b06b6e44a6cc23e19cabc3b49b702a5f897d`)
-  - `dblp.xml.gz`: `1,121,100,825` bytes / ~1.04 GiB (`sha256: 33d24f877422768b477c5174c385cc3806a2c390af66ecb426b0cd1e23b097ec`)
+  - `dblp.xml.gz`: `1,121,975,282` bytes / ~1.04 GiB (`sha256: 812fd7d6860295a902fbc01a96c55306d1df05038560055f269148a49646685f`)
 - **Hasil Ekstraksi (`data/processed/dblp_2015_2025_raw.parquet`)**:
-  - Total `<inproceedings>` yang dipindai: `4,001,762` record
-  - Total record periode 2015–2025: **`2,004,117` baris**, `5` kolom (`203 MB`)
+  - Total record seluruh XML (`data/processed/xml_publication_types.json`): `13,127,979` record
+  - Total `<inproceedings>` yang dipindai: `4,004,309` record
+  - Total record periode 2015–2025: **`2,004,202` baris** (mentah) → **`2,000,757` baris** (bersih setelah preprocessing), `5` kolom
   - Kolom:
     - `key` (`string`): identifier unik publikasi di DBLP
     - `title` (`string`): judul publikasi
     - `authors` (`list[string]`): daftar nama penulis
-    - `year` (`int64`): tahun publikasi (`2015`–`2025`)
+    - `year` (`int32` setelah preprocessing): tahun publikasi (`2015`–`2025`)
     - `venue` (`string`): nama konferensi/workshop (`<booktitle>`)
-  - Catatan awal kualitas data mentah (untuk ditangani di tahap preprocessing): `190` baris memiliki `venue` null dan `2,255` baris memiliki daftar `authors` kosong.
+  - Ringkasan pembersihan data: `190` baris memiliki `venue` null, `2,255` baris memiliki daftar `authors` kosong, dan `1,000` baris duplikat `(normalized_title, year, venue)` dihapus, menghasilkan `1,822,489` author unik dan `8,780` venue unik.
